@@ -1,0 +1,30 @@
+{
+  "name": "seneca-http-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": " ./node_modules/nodemon/bin/nodemon.js src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmadja/seneca-http-status.git"
+  },
+  "author": "Julien Smadja <jsmadja@xebia.fr> (kintribe.com)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jsmadja/seneca-http-status/issues"
+  },
+  "homepage": "https://github.com/jsmadja/seneca-http-status#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "seneca": "^3.2.2",
+    "seneca-web": "^2.0.0",
+    "seneca-web-adapter-express": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "nodemon": "^1.11.0"
+  }
+}
